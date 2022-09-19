@@ -1,0 +1,55 @@
+.label-container {
+  display: inline-block;
+  text-align: right;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+}
+
+label {
+  display: block;
+  height: 21.5px;
+  margin-bottom: 10px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#inputCEP {
+  width: 65px;
+  
+}
+
+#cepInvalido {
+  position: absolute;
+  top: 2px;
+  left: 80px;
+  display: inline-block;
+  color: red;
+  
+}
+
+#inputRua {
+  width: 300px;
+}
+
+#inputBairro {
+  width: 200px;
+}
+
+#inputCidade {
+  width: 180px;
+}
+
+#inputEstado {
+  width: 20px;
+}
+
+#inputIBGE {
+  width: 55px;
+}
